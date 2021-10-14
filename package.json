@@ -1,0 +1,19 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "game quiz",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liberoo/quizgame.git"
+  },
+  "author": "Kamil Jamróz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liberoo/quizgame/issues"
+  },
+  "homepage": "https://github.com/Liberoo/quizgame#readme"
+}

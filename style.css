@@ -60,11 +60,11 @@ max-width: 1000px;
 
 }
 .closerD{
-    position: absolute;
+    position: fixed;
     width:50px;
     height: 50px;
-    top:10%;
-    right:10%;
+    top:15px;
+    right:5px;
     background: none;
     border:none;
 }
@@ -99,10 +99,11 @@ li{
     font-size: 18px;
     max-width: 1000px;
     width: 90%;
+    height: 100%;
 }
 .gameSection{
 
-    width: 100%;
+
 }
 .scoreResult{
     margin:50px;
@@ -110,7 +111,7 @@ li{
     color:White;
     padding:10px;
     font-weight: 300;
-    font-size: 40px;
+padding-top:50px;
 }
 .ring{
     background: none;
@@ -130,7 +131,7 @@ background-color: #ad5389;
 
 .question{
     margin:20px;
-    font-size: 25px;
+
     text-transform: uppercase;
     color:white;
 }
@@ -147,7 +148,7 @@ background-color: #ad5389;
 .answer{
     margin:10px;
     border:3px solid #3c1053;
-    padding:20px 20px;
+    padding:5px ;
     border-radius: 25px;
     width: 100%;
     cursor: pointer;
@@ -158,9 +159,7 @@ background-color: #ad5389;
     background: none;
     color:white;
 }
-.answer:hover{
-    background-color: #ad5389;
-}
+
 .correct{
     background-color: #A8EE98;
 }
@@ -193,5 +192,13 @@ color:white;
     }
     .answer{
         flex:45%;
+    }
+    .answer:hover{
+        background-color: #ad5389;
+    }
+    .closerD{
+        position:absolute;
+        top:20%;
+        right:20%;
     }
 }
