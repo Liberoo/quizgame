@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/20fa0da516.js" crossorigin="anonymous"></script>
+    <title>Game Quiz</title>
+</head>
+
+<body>
+    <div class="container">
+<div class="backgro"></div>
+        <div class="closerD hide"><i class="far fa-times-circle closer"></i></div>
+        <!-- Zasady Gry -->
+        <div class="HowToPlay hide">
+                <ul>
+                    <li>1.Celem gry jest zdobycie jak największej ilości punktów.</li>
+                    <li>2. Aby zdobywać punkty, należy odpowiadać poprawnie na zadane pytania.</li>
+                    <li>3. Tylko jedna z pośród podanych odpowiedzi jest poprawna.</li>
+                    <li>4. Możliwe jest skorzystanie z kół ratunkowych. </li>
+                    <li>4a. <i class="fas fa-life-ring"></i> pozwala na pominięcie pytania. Należy pamiętać że
+                        pierwsze użycie
+                        kosztuje 10 punktów, a za każe kolejne należy zapłacić dwukrotniść poprzedniej kwoty. </li>
+                    <li>4b. <i class="fas fa-star-half-alt"></i> Jest to zmiejszenie ilości wariantów odpowiedzi do
+                        dwóch opcji.
+                        Pierwszy zakup kosztuje 20 punktów, a każdy kolejny jest o 10 punktów droższy.</li>
+                    <li>5. Nie można użyć dwóch kół ratunkowych w jednej rundzie.</li>
+                    <li>6. W pytaniu finałowym, nie mam możliwośći użycia kół ratunkowych</li>
+                </ul>
+
+        </div>
+        <div class="rankingSection hide  ">
+            <h1>Ranking</h1>
+            <ul class="ranking "> </ul>
+            <div class="rankingMessage hide ">Nie rozegrano jeszcze żadnej rozgrywki</div>
+        </div>
+
+        <div class="gameBoard ">
+            <div class="scoreResult hide "> <span class="score">10</span> punktów</div>
+
+
+            <!--sekcia z pytaniami-->
+            <div class="gameSection hide ">
+                <!--koła ratunkowe-->
+                <div class="helpDesk">
+                    <button class="ring skipQuestion">Skip
+                    </button>
+                    <button class="ring halfOptions">Half
+                    </button>
+                </div>
+                <!--pytania-->
+                <div class="question">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis distinctio
+                    exercitationem veniam repellat, minima sed pariatur maiores amet. Magni architecto esse autem
+                    maiores
+                    porro omnis voluptatum amet eius culpa reprehenderit?</div>
+                <!--warianty odpowiedzi-->
+                <div class="answers">
+                    <div class="answer hoverEffect correct">Odpowiedź 1</div>
+                    <div class="answer hoverEffect">Odpowiedź 2</div>
+                    <div class="answer hoverEffect">Odpowiedź 3</div>
+                    <div class="answer hoverEffect">Odpowiedź 4</div>
+                </div>
+            </div>
+            <!--sekcja rezultatu-->
+            <div class="resultSection hide ">
+                <p class="resultText">Koniec Gry!</p>
+
+            </div>
+
+        </div>
+                <!-- Start Gry -->
+                <div class="menu  ">
+                    <button class="btn startGame">Rozpocznij</button>
+                    <button class="btn howToPlay">Jak grać?</button>
+                    <button class="btn results">Tablica wyników</button>
+                </div>
+
+
+    </div>
+    <script src=main.js></script>
+</body>
+
+</html>
