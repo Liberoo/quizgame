@@ -11,6 +11,7 @@ const resultSection = document.querySelector('.resultSection');
 const socialMedia = document.querySelector('.socialMedia');
 const closer = document.querySelector('.closerD');
 const gameSection = document.querySelector('.gameSection');
+const gameBoard = document.querySelector('.gameBoard');
 const skipQuestion = document.querySelector('.skipQuestion');
 const halfOptions = document.querySelector('.halfOptions');
 const scoreResult = document.querySelector('.scoreResult');
@@ -194,6 +195,7 @@ function addRanking() {
 startGame.addEventListener('click', () => {
     menu.classList.add('hide');
     gameSection.classList.remove('hide');
+    gameBoard.classList.remove('hide');
     scoreResult.classList.remove('hide');
     startQuiz();
 })
@@ -204,6 +206,8 @@ howToPlay.addEventListener('click', () => {
     closer.classList.remove('hide');
     menu.classList.add('hide');
     resultSection.classList.add('hide');
+    gameBoard.classList.add('hide');
+
 
 })
 
@@ -224,6 +228,7 @@ results.addEventListener('click', () => {
     closer.classList.remove('hide');
     menu.classList.add('hide');
     resultSection.classList.add('hide');
+     gameBoard.classList.add('hide');
 
     if (game == 0) {
 

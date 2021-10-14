@@ -4,8 +4,7 @@ Technology used: HTML/CSS, JavaScript
 
 ## About Project
 
-about.
-
+I wanted create some game in JavaScript. This project was inspired by the app whitch create 'Web Dev Simplified' on his Youtube channel, but my application has more features like  'livelines'. My game has ranking and rules. Additionally questions and answers are displayed in diffrent order.
 ### START
 
 ```
@@ -16,6 +15,7 @@ about.
 ### Live
 
 ```
-https://www.portfolio.kamiljamroz.pl/quizgame
+[Quiz Game](https://wwww.portfolio.kamiljamroz.pl/game)
+
 ```
 

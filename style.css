@@ -10,18 +10,8 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Archivo Black', sans-serif;
-    background-color:white;
-    font-weight: 400;
-    background-image: -webkit-linear-gradient(-90deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 52%, rgba(173,83,137,0.81) 84%, #3c1053 100%);
-background-image: -moz-linear-gradient(180deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 52%, rgba(173,83,137,0.81) 84%, #3c1053 100%);
-background-image: linear-gradient(180deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 52%, rgba(173,83,137,0.81) 84%, #3c1053 100%);
-background-position: 50% 50%;
--webkit-background-origin: padding-box;
-background-origin: padding-box;
--webkit-background-clip: border-box;
-background-clip: border-box;
--webkit-background-size: auto auto;
-background-size: auto auto;
+    background: linear-gradient(#ffefba,  #ffffff);
+
 }
 
 .container{
@@ -101,11 +91,14 @@ li{
     align-items: center;
     flex-direction: column;
     text-align: center;
+    background: linear-gradient(#de6262, #ffb88c);
+    padding:10px;
+    border-radius: 25px;
 
-    margin:20px;
+
     font-size: 18px;
     max-width: 1000px;
-    width: 80%;
+    width: 90%;
 }
 .gameSection{
 
@@ -113,17 +106,17 @@ li{
 }
 .scoreResult{
     margin:50px;
-
-    border-bottom: 2px solid black;
-
+    font-family: 'Poppins', sans-serif;
+    color:White;
     padding:10px;
-    font-weight: 700;
+    font-weight: 300;
+    font-size: 40px;
 }
 .ring{
     background: none;
     font-family: 'Archivo Black', sans-serif;
     font-size: 20px;
-    border: 2px solid #202124;
+    border: none;
     padding:25px 20px;
     border-radius: 50%;
     margin:10px;
@@ -131,6 +124,7 @@ li{
 display: inline-block;
 width: 100px;
 height: 100px;
+background-color: #ad5389;
 }
 
 
@@ -138,7 +132,7 @@ height: 100px;
     margin:20px;
     font-size: 25px;
     text-transform: uppercase;
-    color:#202124;
+    color:white;
 }
 .answers{
     display: flex;
@@ -146,6 +140,7 @@ height: 100px;
     justify-content: center;
     align-items: center;
     margin:10px;
+    color:white;
 
 
 }
@@ -161,6 +156,7 @@ height: 100px;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     background: none;
+    color:white;
 }
 .answer:hover{
     background-color: #ad5389;
@@ -174,8 +170,9 @@ height: 100px;
 .canUse{
     background-color: #ad5389;
     cursor: pointer;
+    color:white;
 }
-.cahUse:hover{
+.canUse:hover{
 background-color: #3c1053;
 color:white;
 
