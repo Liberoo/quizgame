@@ -1,154 +1,150 @@
-
-*{
+* {
     box-sizing: border-box;
 }
-body{
-    margin:0;
+
+body {
+    margin: 0;
     box-sizing: border-box;
-    padding:0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Archivo Black', sans-serif;
-    background: linear-gradient(#ffefba,  #ffffff);
-
+    background: linear-gradient(#ffefba, #ffffff);
 }
 
-.container{
+.container {
     width: 100%;
     min-height: 100vh;
-    padding:20px 0;
+    padding: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-
-
-
 }
-.menu{
+
+.menu {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
-.btn{
+.btn {
     cursor: pointer;
     font-size: 30px;
-    padding:20px;
+    padding: 20px;
     background-color: transparent;
-    border:none;
-    color:#202124;
+    border: none;
+    color: #202124;
     text-transform: uppercase;
     font-weight: 400;
     transition: .5s;
     font-family: 'Archivo Black', sans-serif;
 }
-.btn:hover{
-    color:#ad5389;
+
+.btn:hover {
+    color: #ad5389;
 }
-.HowToPlay{
 
-
-margin:5px;
-max-width: 1000px;
-    padding:10px;
-
-
+.HowToPlay {
+    margin: 5px;
+    max-width: 1000px;
+    padding: 10px;
 }
-.closerD{
+
+.closerD {
     position: fixed;
-    width:50px;
+    width: 50px;
     height: 50px;
-    top:15px;
-    right:5px;
+    top: 15px;
+    right: 5px;
     background: none;
-    border:none;
+    border: none;
 }
-.closer{
+
+.closer {
     font-size: 30px;
 }
-li{
-    padding:10px;
-}
-.rankingSection{
 
+li {
+    padding: 10px;
+}
+
+.rankingSection {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-size: 18px;
 }
-.rankingSection h1{
-    margin:50px;
+
+.rankingSection h1 {
+    margin: 50px;
 }
-.gameBoard{
+
+.gameBoard {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
     background: linear-gradient(#de6262, #ffb88c);
-    padding:10px;
+    padding: 10px;
     border-radius: 25px;
-
-
     font-size: 18px;
     max-width: 1000px;
     width: 90%;
     height: 100%;
 }
-.gameSection{
 
-
+.gameSection {
+    width: 100%;
 }
-.scoreResult{
-    margin:50px;
+
+.scoreResult {
+    margin: 50px;
     font-family: 'Poppins', sans-serif;
-    color:White;
-    padding:10px;
+    color: White;
+    padding: 10px;
     font-weight: 300;
-padding-top:50px;
+    padding-top: 50px;
 }
-.ring{
+
+.ring {
     background: none;
     font-family: 'Archivo Black', sans-serif;
     font-size: 20px;
     border: none;
-    padding:25px 20px;
+    padding: 25px 20px;
     border-radius: 50%;
-    margin:10px;
+    margin: 10px;
     text-transform: uppercase;
-display: inline-block;
-width: 100px;
-height: 100px;
-background-color: #ad5389;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #ad5389;
 }
 
-
-.question{
-    margin:20px;
-
+.question {
+    margin: 20px;
     text-transform: uppercase;
-    color:white;
+    color: white;
 }
-.answers{
+
+.answers {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:10px;
-    color:white;
-
-
+    margin: 10px;
+    color: white;
 }
-.answer{
-    margin:10px;
-    border:3px solid #3c1053;
-    padding:5px ;
+
+.answer {
+    margin: 10px;
+    border: 3px solid #3c1053;
+    padding: 5px;
     border-radius: 25px;
     width: 100%;
     cursor: pointer;
@@ -157,48 +153,56 @@ background-color: #ad5389;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     background: none;
-    color:white;
+    color: white;
 }
 
-.correct{
+.correct {
     background-color: #A8EE98;
 }
-.wrong{
+
+.wrong {
     background-color: #FE6F6F;
 }
-.canUse{
+
+.canUse {
     background-color: #ad5389;
     cursor: pointer;
-    color:white;
-}
-.canUse:hover{
-background-color: #3c1053;
-color:white;
-
+    color: white;
 }
 
-.hide{
+.canUse:hover {
+    background-color: #3c1053;
+    color: white;
+}
+
+.hide {
     display: none;
 }
+
 @media screen and (max-width: 600px) {
-    .HowToPlay{
+    .HowToPlay {
         font-size: 18px;
     }
 }
+
 @media screen and (min-width: 768px) {
-    .answers{
+    .answers {
         flex-direction: row;
         flex-wrap: wrap;
+        width: 100%;
     }
-    .answer{
-        flex:45%;
+    .answer {
+        width: 40%;
     }
-    .answer:hover{
+    .answer:hover {
         background-color: #ad5389;
     }
-    .closerD{
-        position:absolute;
-        top:20%;
-        right:20%;
+    .closerD {
+        position: absolute;
+        top: 20%;
+        right: 20%;
+    }
+    .scoreResult {
+        font-size: 35px;
     }
 }
