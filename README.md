@@ -15,7 +15,7 @@ I wanted create some game in JavaScript. This project was inspired by the app wh
 ### Live
 
 ```
-[https://www.portfolio.kamiljamroz.pl/game](https://www.portfolio.kamiljamroz.pl/game)
+https://www.portfolio.kamiljamroz.pl/game
 
 ```
 
